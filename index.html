@@ -3,17 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <title>Portfólio</title>
+    <style>
+        #nome {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        #desc {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        .base-color {
+            background-color: #F1F5F2;
+        }
+        li {
+            font-size: 20px;
+        }
+        .skills-tittle {
+            background-color: #6E633D;
+            line-height: 50px;
+        }
+        ul {
+            background-color: #C2A878;
+            line-height: 30px;
+        }
+    </style>
 </head>
-<body>
+<body class="base-color">
+    <h1 id="nome">Arthur Victor Grave Ferreira</h1>
+    <img id=eu src="./resources/img/foto.jpg" alt="Sem foto no momento..." width="150">
+    <br>
     <h2><a href="#sobre">Sobre mim</a></h2>
     <h2><a href="#soft">SoftSkills</a></h2>
     <h2><a href="#hard">HardSkills</a></h2>
-    <br>
-    <h1>Arthur Victor Grave Ferreira</h1>
-    <img id=eu src="./resources/img/foto.jpg" alt="Sem foto no momento..." width="150">
-    <h3 id=sobre><strong>Sobre mim</strong></h3>
-    <p>Sou escoteiro, bombeiro civil, técnico de informática, gamer e dev de games. Gosto de ajudar os outros quando precisam de ajuda, pois acredito que diferentes pontos de vista podem trazer diversas   formas de explicar um mesmo assunto. Sou Brasileiro e moro em Guarujá-SP.</p>
-    <h3 id=soft>Soft skills</h3>
+    <h2 id=sobre><strong>Sobre mim</strong></h3>
+    <p id="desc">Sou escoteiro, bombeiro civil, técnico de informática, gamer e dev de games. Gosto de ajudar os outros quando precisam de ajuda, pois acredito que diferentes pontos de vista podem trazer diversas   formas de explicar um mesmo assunto. Sou <em>Brasileiro</em> e moro em <em>Guarujá-SP</em>.</p>
+    <h2 class="skills-tittle" id=soft>Soft skills</h3>
     <ul>
         <li>Atento aos detalhes;</li>
         <li>Comunicativo;</li>
@@ -22,7 +45,7 @@
         <li>Solícito;</li>
         <li><strong> Em constante desenvolvimento.</strong></li>
     </ul>
-    <h3 id=hard>Hard skills</h3>
+    <h2 class="skills-tittle" id=hard>Hard skills</h3>
     <ul>
         <li>C#;</li>
         <li>Git e GitHub;</li>
@@ -33,6 +56,6 @@
     </ul>
     <a href="#eu" alt="Link para foto de perfil">Foto</a>
     <br>
-    <a href="https://www.google.com/" alt="Link para fonde de busca...">Google</a>
+    <a href="https://www.linkedin.com/in/arthur-victor-grave-ferreira-53b342115/" target="_blank" alt="Link para fonde de busca...">Linked In</a>
 </body>
 </html>
